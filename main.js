@@ -39,7 +39,7 @@ document.querySelector("#text2").innerHTML = `${data.results[0].incorrect_answer
 }}
 function function1(){
 if (randomAnswer==1){
-document.querySelector(".response").innerHTML = "Yeahh that's it!!";
+document.querySelector(".response").innerHTML = "Yeahh, that's it!!";
 }
 else{
 document.querySelector(".response").innerHTML ="OUPS! You got this one wrong";
