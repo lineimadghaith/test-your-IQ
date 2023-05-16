@@ -58,7 +58,7 @@ if (randomAnswer==3){
 document.querySelector(".response").innerHTML = "Yep that is right!";
 }
 else{
-document.querySelector(".response").innerHTML ="It is okay to make the wrong decisions<br>But it is not okay to not try to fix them";
+document.querySelector(".response").innerHTML ="That is the wrong answer";
 }
 }
 function function4(){
