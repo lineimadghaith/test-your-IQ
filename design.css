@@ -1,0 +1,71 @@
+:root{
+    --personal: var(--primary);
+    --personal-glow: 0px 0px 4px rgba(234, 64, 164, 0.75);
+    --shadow:  1px 4px rgba(0, 0, 0, 0.1);
+    --dark: #313154;
+}
+*{
+    font-family: 'montserrat', sans-serif;
+    background-color: rgb(198, 198, 198);
+}
+#title{
+    color:rgb(212, 127, 141);
+    text-align: center;
+	text-shadow: var(--shadow);
+}
+.container{
+    width: 100%;
+	font-size: 1.125rem;
+	padding: 1rem 1.5rem;
+	color: var(--dark);
+	background-color: #FFF;
+	border-radius: 0.5rem;
+	box-shadow: var(--shadow);
+	margin-bottom: 1.5rem;
+    text-align: center;
+}
+#text1,#text2,#text3,#text4{
+    background-color: rgb(212, 127, 141);
+    width: 100%;
+    font-size: 100%;
+    border:1px rgb(212, 127, 141) solid;
+	cursor: pointer;
+    padding: 1rem 1.5rem;
+	border-radius: 0.5rem;
+	box-shadow: var(--shadow);
+}
+#text1:hover {
+	opacity: 0.75;
+}
+#text2:hover {
+	opacity: 0.75;
+}
+#text3:hover {
+	opacity: 0.75;
+}
+#text4:hover {
+	opacity: 0.75;
+}
+#change{
+    border:3px solid rgb(212, 127, 141) ;
+    border-radius:50%;
+    background-color: var(--personal);
+	box-shadow: var(--personal-glow);
+    background-color: #FFF;
+	box-shadow: var(--shadow);
+	cursor: pointer;
+    width: 70px;
+	height: 70px;
+	opacity: 0.75;
+    font-size: 100%;
+    position: relative;
+    left:47%;
+}
+#change:hover{
+	opacity: 0.5;
+}.response{
+    text-align: center;
+    background-color: rgb(212, 127, 141);
+    color:#FFF;
+    font-size: 500%;
+}
